@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Nunito";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: linear-gradient(
+      rgba(108, 76, 206, 0.9),
+      rgba(127, 86, 253, 0.9)
+    ),
+    url(./assets/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-x: hidden;
+}
+.name {
+  color: rgb(39, 7, 75);
+}
+.header-box {
+  height: 70vh;
+}
+.my-img {
+  border-radius: 50%;
+  /* width: 100%; */
+  /* height: 400px; */
+}
+.social-container {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 0px 20px;
+  width: fit-content;
+}
+.socials {
+  /* color: #fff; */
+  text-decoration: none;
+  font-size: 45px;
+  padding: 0px 10px;
+}
+.text-purple {
+  color: #58078ff3;
+}
+.sev-icon {
+  font-size: 30px;
+  color: #58078ff3;
+}
+.project-img {
+  height: 250px;
+}
+.project-button {
+  /* outline: #58078ff3 !important; */
+  border: 1px solid #58078ff3 !important;
+  background: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.project-button:hover {
+  background: #58078ff3;
+  color: #fff;
+}
+.me-img {
+  height: 500px;
+  border-radius: 50% !important;
+}
+.skill-card {
+  padding: 20px !important;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.skill-card:hover {
+  box-shadow: 5px 6px 6px 2px #551294;
+  transform: scale(1.1);
+}
+.project-card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.project-card:hover {
+  box-shadow: 5px 6px 6px 2px #551294;
+}
+.navbar {
+  margin-bottom: 3% !important;
+}
+.navbar-scrolled {
+  backdrop-filter: blur(15px) !important;
+  background-color: #1b1a2ea9 !important;
+  box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 0.171) !important;
+  transition: background-color 0.3s ease;
+}
+body::-webkit-scrollbar {
+  width: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+.navbar-transparent {
+  background-color: transparent !important;
+}
+.resume-btn {
+  background: white;
+  color: #58078ff3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.resume-btn:hover {
+  background: #58078ff3;
+  color: #fff;
+}
+@media screen and (max-width: 479px) {
+  .me-img {
+    height: 400px;
+    width: 100%;
+    border-radius: 50% !important;
   }
-  to {
-    transform: rotate(360deg);
+  .social-container {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px 20px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+  }
+  .socials {
+    /* color: #fff; */
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 10px;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .project-img {
+    height: 180px;
+  }
+  .header-box svg {
+    width: 100% !important;
+  }
+  #lottie {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .navbar {
+    margin-bottom: 5% !important;
   }
 }
