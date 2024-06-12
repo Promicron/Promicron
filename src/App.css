@@ -1,20 +1,12 @@
 * {
   font-family: "Nunito";
 }
-body {
-  background-image: linear-gradient(
-      rgba(108, 76, 206, 0.9),
-      rgba(127, 86, 253, 0.9)
-    ),
-    url(./assets/bg1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
 .bg {
   min-height: 100vh;
   overflow-x: hidden;
+}
+.nav-link {
+  font-size: 20px !important;
 }
 .name {
   color: rgb(39, 7, 75);
@@ -36,18 +28,15 @@ body {
 .socials {
   /* color: #fff; */
   text-decoration: none;
-  font-size: 45px;
+  font-size: 20px;
   padding: 0px 10px;
 }
 .text-purple {
   color: #58078ff3;
 }
-.sev-icon {
-  font-size: 30px;
-  color: #58078ff3;
-}
 .project-img {
   height: 250px;
+  width: 200px;
 }
 .project-button {
   /* outline: #58078ff3 !important; */
@@ -75,7 +64,7 @@ body {
 }
 .project-card {
   transition: all 0.2s ease;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .project-card:hover {
   box-shadow: 5px 6px 6px 2px #551294;
@@ -116,6 +105,19 @@ body::-webkit-scrollbar-thumb {
   background: #58078ff3;
   color: #fff;
 }
+.logo {
+  border-radius: 50%;
+  height: 50px;
+}
+.tech-stack img {
+  margin-bottom: 20px;
+}
+.edu-period {
+  padding: 5px 10px;
+  background: #000;
+  color: #ffff;
+  border-radius: 25px;
+}
 @media screen and (max-width: 479px) {
   .me-img {
     height: 400px;
@@ -129,12 +131,6 @@ body::-webkit-scrollbar-thumb {
     width: fit-content;
     text-align: center;
     margin: auto;
-  }
-  .socials {
-    /* color: #fff; */
-    text-decoration: none;
-    font-size: 25px;
-    padding: 0px 10px;
   }
   .welcome {
     text-align: center;
@@ -151,5 +147,24 @@ body::-webkit-scrollbar-thumb {
   }
   .navbar {
     margin-bottom: 5% !important;
+  }
+  .edu-item h3 {
+    font-size: 16px;
+    width: 70%;
+  }
+  .tech-container{
+    height:max-content;
+  }
+  .edu-period{
+    font-size: 15px;
+  }
+  .edu-uni{
+    font-size: 14px;
+  }
+  .edu-loc{
+    font-size: 14px;
+  }
+  .edu-date{
+    font-size: 14px;
   }
 }

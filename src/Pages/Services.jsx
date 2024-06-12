@@ -1,66 +1,62 @@
-import React from "react";
 import Navbar from "../components/Navbar";
-
+import html from "../assets/techstack/html.png";
+import css from "../assets/techstack/css.png";
+import js from "../assets/techstack/js.png";
+import reactPng from "../assets/techstack/react.png";
+import bootstrap from "../assets/techstack/bootstrap.png";
+import reduxPng from "../assets/techstack/redux.png";
+import vscode from "../assets/techstack/vscode.png";
+import git from "../assets/techstack/git.png";
+import gitHub from "../assets/techstack/github.png";
+import postman from "../assets/techstack/postman.png";
+import figma from "../assets/techstack/figma.png";
 const Services = () => {
   return (
-    <section className="bg">
+    <section className="container-fluid tech-container">
       <Navbar />
-      <div className="container">
-        <h1 className="text-center text-white fw-bold">Services I Offer</h1>
-        <div className="card-group p-3" data-aos="zoom-in">
-          <div
-            className="card p-3 m-2 rounded"
-            data-aos="fade"
-            data-aos-delay="0"
-          >
-            <div className="card-body">
-              <div className="card-title text-center">
-                <i className="bi bi-code-square sev-icon"></i>
-              </div>
-              <h3 className="card-title text-center">WEB DEVELOPMENT</h3>
-              <p className="card-text">
-                I can develop functional web pages from scratch using HTML, CSS,
-                JavaScript or React. I can also implement an existing design to
-                a webpage.
-              </p>
-            </div>
+      <section className="container">
+        <h1 className="display-4 fw-bold">Tech Stack</h1>
+        <p className="py-2">Technologies I've been working with recently</p>
+      </section>
+      <section className="container tech-stack">
+        <div className="row row-cols-3 row-cols-md-4 row-cols-lg-6">
+          <div className="col">
+            <img src={html} alt="" />
           </div>
-          <div
-            className="card p-3 m-2 rounded"
-            data-aos="fade"
-            data-aos-delay="200"
-          >
-            <div className="card-body">
-              <div className="card-head text-center">
-                <i className="bi bi-ui-checks sev-icon"></i>
-              </div>
-              <h3 className="card-title text-center">USABILITY TESTING</h3>
-              <p className="card-text">
-                Applications and softwares need to be tested from a User's
-                perspective, during or after implementation. I can conduct
-                effective tests and provide a detailed documentation.
-              </p>
-            </div>
+          <div className="col">
+            <img src={css} alt="" />
           </div>
-          <div
-            className="card p-3 m-2 rounded"
-            data-aos="fade"
-            data-aos-delay="300"
-          >
-            <div className="card-body">
-              <div className="card-head text-center">
-                <i className="bi bi-star sev-icon"></i>
-              </div>
-              <h3 className="card-title text-center">
-                DEPLOYMENT OF A MACHINE LEARNING MODEL
-              </h3>
-              <p className="card-text">
-                Some machine learning classification models require user input
-                so as to perform predictions or classification on user's data. I
-                can build a fully functional webpage that houses the ML model,
-                accepts user's input and display the result.
-              </p>
-            </div>
+          <div className="col">
+            <img src={js} alt="" />
+          </div>
+          <div className="col">
+            <img src={reactPng} alt="" />
+          </div>
+          <div className="col">
+            <img src={reduxPng} alt="" />
+          </div>
+          <div className="col">
+            <img src={bootstrap} alt="" />
+          </div>
+        </div>
+      </section>
+      <div className="container mt-4 tech-stack">
+        <h1 className="fw-bold display-4">Tools</h1>
+        <div className="row row-cols-3 row-cols-md-4 row-cols-lg-6">
+          <div className="col">
+            <img src={vscode} alt="" />
+          </div>
+          <div className="col">
+            <img src={git} alt="" />
+          </div>
+          <div className="col">
+            <img src={gitHub} alt="" />
+          </div>
+          <div className="col">
+            <img src={figma} alt="" />
+          </div>
+          <div className="col">
+            <img src={postman} alt="" />
           </div>
         </div>
       </div>
