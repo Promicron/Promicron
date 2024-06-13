@@ -15,8 +15,8 @@ const About = () => {
           <p>
             Hello ! I'm Ileri, a passionate developer with a knack for building
             and creating effective and cool web apps and softwares. I also
-             with data anayltics and machine learning.With over 3 years of
-            experience in the industry, I've honed my skills in HTML, CSS,
+            specialize in data analytics and machine learning. With over 3 years
+            of experience in the industry, I've honed my skills in HTML, CSS,
             JavaScript, Python, and modern frontend frameworks like React,
             Vue.js.
           </p>
