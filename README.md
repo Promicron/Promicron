@@ -1,10 +1,10 @@
 ## Hi, I'm Promise 👋
 
 
-- 🎓 Comp Sci + Masters in Artificial Intelligence
-- 🧠 I love bridging UI and AI – from **ML model integration** to **interactive visualizations**
-- 🌐 I craft sleek, scalable frontend apps using **React, Next.js, Tailwind**
-- 🛠️ I’m currently exploring **AI + Web3**, **LLMs in production**, and **SaaS prototyping**
+- Comp Sci + Masters in Artificial Intelligence
+- I love bridging UI and AI – from **ML model integration** to **interactive visualizations**
+- I craft sleek, scalable frontend apps using **React, Next.js, Tailwind**
+- I’m currently exploring **AI + Web3**, **LLMs in production**, and **SaaS prototyping**
 
 
 
